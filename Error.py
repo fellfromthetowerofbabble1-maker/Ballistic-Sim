@@ -1,4 +1,3 @@
-import string
 def Error_Test(Type,Func_input, Lrange,Urange):
     True_False=0
     conver={
@@ -43,4 +42,4 @@ def Error_Test(Type,Func_input, Lrange,Urange):
         print(f"\nPlease input a {Type} and in the right range\n")
         return True_False,Func_input
 #NOTE: this will NOT raise a error, only return a value of 0 if the input is invalid,
-#  1 wil be returned if the input is valid.
+#  1 will be returned if the input is valid.
